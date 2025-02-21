@@ -32,5 +32,42 @@ List:collect of different items enclosed between square brackets which we can’
 Tuple: tuple is a collection of different elements which we can change the values
 Dictionary:collection of key value elements 
 Represents values of key elements
+codes with same output by using different datatypes in python:
+email_str = "jathin2001@gmail.com"
+
+email_list = list(email_str)
+email_tuple = tuple(email_str)
+email_set = sorted(set(email_str))
+email_dict = {index: char for index, char in enumerate(email_str)}
+email_bytes = email_str.encode('utf-8')
+email_bytearray = bytearray(email_bytes)
+email_bool = "@" in email_str
+email_int = sum(ord(char) for char in email_str)
+email_float = float(email_int)
+email_complex = complex(email_int, len(email_str))
+
+print("String:", email_str)
+print("List:", "".join(email_list))
+print("Tuple:", "".join(email_tuple))
+print("Set:", "".join(email_set))
+print("Dictionary:", "".join(email_dict.values()))
+print("Bytes:", email_bytes.decode('utf-8'))
+print("Bytearray:", email_bytearray.decode('utf-8'))
+print("Boolean:", email_str if email_bool else "Invalid email")
+print("Integer:", email_str)
+print("Float:", email_str)
+print("Complex:", email_str)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
