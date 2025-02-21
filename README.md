@@ -15,7 +15,7 @@ Variable is like a container that holds data. Very similar to how our containers
 
 like creating a placeholder in memory and assigning it some value. In Python its as easy as writing:
 String: Strings are sequences of characters and are treated as immutable in Python. They support a wide range of string manipulation operations.
-Exception: Exceptions are types of errors that occur when the program is being executed and change the normal flow of the ptogram
+Exception: Exceptions are types of errors that occur when the program is being executed and change the normal flow of the program
 Data types: data types are needed to store different types of values in memory
 It specifies type of value that variable holds
 Data types are needed to do different operations without causing an error
