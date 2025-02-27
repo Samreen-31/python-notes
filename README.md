@@ -57,6 +57,35 @@ print("Boolean:", email_str if email_bool else "Invalid email")
 print("Integer:", email_str)
 print("Float:", email_str)
 print("Complex:", email_str)
+>PROGRAM TO PRINT CAPITALS OF INDIAN STAES using DICTIONARY data type
+states_capitals = {"STATE": "CAPITALS", "Andhra Pradesh": "Amaravati", "Arunachal Pradesh": "Itanagar", "Assam": "Dispur",
+    "Bihar": "Patna", "Chhattisgarh": "Raipur", "Goa": "Panaji", "Gujarat": "Gandhinagar",
+    "Haryana": "Chandigarh", "Himachal Pradesh": "Shimla", "Jharkhand": "Ranchi",
+    "Karnataka": "Bengaluru", "Kerala": "Thiruvananthapuram", "Madhya Pradesh": "Bhopal",
+    "Maharashtra": "Mumbai", "Manipur": "Imphal", "Meghalaya": "Shillong",
+    "Mizoram": "Aizawl", "Nagaland": "Kohima", "Odisha": "Bhubaneswar",
+    "Punjab": "Chandigarh", "Rajasthan": "Jaipur", "Sikkim": "Gangtok",
+    "Tamil Nadu": "Chennai", "Telangana": "Hyderabad", "Tripura": "Agartala",
+    "Uttar Pradesh": "Lucknow", "Uttarakhand": "Dehradun", "West Bengal": "Kolkata"}
+print("CAPITALS OF INDIAN STATES\n")
+print("\n".join(f"{state} : {capital}" for state, capital in states_capitals.items()))
+>program using STRING datatype
+states_capitals = """CAPITALS OF INDIAN STATES
+telangana : delhi
+andhrapradesh : amaravathi
+gujarath : gandhinagar"""
+print(states_capitals)
+> program using LIST datatype
+>states_capitals = ["telangana : delhi", "gujarath : gandhinagar", "andhrapradesh : amaravathi"]
+print("CAPITALS OF INDIAN STATES\n")
+print("\n".join(states_capitals))
+>using TUPLE
+states_capitals = (
+    ("telangana", "delhi"), ("gujarath", "gandhinagar"), ("andhrapradesh", "amaravathi")
+    )
+print("CAPITALS OF INDIAN STATES\n")
+for state, capital in states_capitals:
+    print(f"{state} : {capital}")
 
 
 
