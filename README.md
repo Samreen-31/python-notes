@@ -98,6 +98,25 @@ print("the value of", a, " / ", 20, "is: ", a / b )
 print("the value of", a, " % ", 20, "is: ", a % b )
 print("the value of", a, " ** ", 20, "is: ", a ** b )
 print("the value of", a, " // ", 20, "is: ", a // b )
+>CODE USING CONDITIONAL STATEMENTS
+>PROGRAM
+num1 = float(input("eneter first number: "))
+operator = input("enter operatior (+, -, *, /): ")
+num2 = float(input("enter second number: "))
+
+if operator == '+':
+    print(f"Result: {num1 + num2}")
+elif operator == '-':
+    print(f"Result: {num1} - {num2}")
+elif operator == '*':
+    print(f"Result: {num1} * {num2}")
+elif operator == '/':
+    if num2 != 0:
+        print(f"Result: {num1} / {num2}")
+    else:
+        print("Error! Division by zero.")
+else:
+        print("invalid operator!")
 
 
 
