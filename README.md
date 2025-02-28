@@ -86,6 +86,18 @@ states_capitals = (
 print("CAPITALS OF INDIAN STATES\n")
 for state, capital in states_capitals:
     print(f"{state} : {capital}")
+>OPRERATORS
+>operator is a special symbol which performs operations on different values and variables
+>PROGRAM 
+a = 10
+b = 20
+print("the value of", a, " + ", 20, "is: ", a + b )
+print("the value of", a, " - ", 20, "is: ", a - b )
+print("the value of", a, " * ", 20, "is: ", a * b )
+print("the value of", a, " / ", 20, "is: ", a / b )
+print("the value of", a, " % ", 20, "is: ", a % b )
+print("the value of", a, " ** ", 20, "is: ", a ** b )
+print("the value of", a, " // ", 20, "is: ", a // b )
 
 
 
