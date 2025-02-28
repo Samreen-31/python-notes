@@ -87,7 +87,7 @@ print("CAPITALS OF INDIAN STATES\n")
 for state, capital in states_capitals:
     print(f"{state} : {capital}")
 >OPRERATORS
->operator is a special symbol which performs operations on different values and variables
+>operator is a special symbol which performs operations on different values and variables allowing you to manipulate data by performing mathematical calculations, comparisons, assignments, and logical checks within your code; essentially, they are used to carry out actions on data like addition, subtraction
 >PROGRAM 
 a = 10
 b = 20
@@ -117,6 +117,9 @@ elif operator == '/':
         print("Error! Division by zero.")
 else:
         print("invalid operator!")
+>advantage: The primary advantage of operators in programming is that they allow developers to perform complex calculations and manipulations on data using concise, readable expressions, making code more efficient and easier to write by providing a simple way to execute various operations like arithmetic, logical, and comparison checks within a program
+>disadvantage: Operators make code shorter but can also make it confusing if used too much in one line. Python follows rules for which operators run first, which can lead to unexpected results. This makes debugging harder, especially for beginners. Using parentheses helps clarify expressions and improves readability.
+       
 
 
 
