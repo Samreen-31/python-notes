@@ -119,6 +119,28 @@ else:
         print("invalid operator!")
 >advantage: The primary advantage of operators in programming is that they allow developers to perform complex calculations and manipulations on data using concise, readable expressions, making code more efficient and easier to write by providing a simple way to execute various operations like arithmetic, logical, and comparison checks within a program
 >disadvantage: Operators make code shorter but can also make it confusing if used too much in one line. Python follows rules for which operators run first, which can lead to unexpected results. This makes debugging harder, especially for beginners. Using parentheses helps clarify expressions and improves readability.
+>TYPE CASTING
+>Conversion of one datatype to another data type is called type casting
+>two types
+>explicit
+>implicit
+>EXPLICIT: conversion of one data type to other datatype via human or developer intervension with the requirement of python inbuilt funtions int(), float(), dict(), bool()etc
+>EXAMPLE
+>string = "7"
+number = 20
+string_number = int(string)
+sum= number + string_number
+print("sum of both numbers is: ", sum)
+>a = "3"
+b = "10"
+print(int(a) + int(b))
+>IMPLICIT: python datatypes donot have samelevel. there are higher order datatypes and lower order datatypes while performing operations on variables with datatypes lowerorder variable datatyoes converted to higher order variable datatypes in python. According to the level one datatype converted to other datatype by python interpreter itself.
+>EXAMPLE
+>a = 1.9
+b = 8
+print(a + b)
+>OUTPUT
+>9.9 
        
 
 
