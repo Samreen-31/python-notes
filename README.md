@@ -140,8 +140,23 @@ print(int(a) + int(b))
 b = 8
 print(a + b)
 >OUTPUT
->9.9 
-       
+>9.9
+>CODE
+>nums = [2, 7, 11, 15]  # The list of numbers
+target = 9  # The target sum we want to achieve
+
+# Dictionary to store the value and its index
+num_to_index = {}  # This will help us find numbers quickly
+
+# Iterate through the array
+for i, num in enumerate(nums):  # 'i' is the index, 'num' is the value at that index
+    complement = target - num  # The 'complement' is the number we need to find
+    if complement in num_to_index:  # Check if this 'complement' is already in our dictionary
+        print([num_to_index[complement], i])  # Output the indices of the complement and the current number
+        break  # Stop the loop since we found the answer
+    num_to_index[num] = i  # Add the current number and its index to the dictionary
+output
+0 1
 
 
 
