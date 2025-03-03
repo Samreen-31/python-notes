@@ -157,6 +157,14 @@ for i, num in enumerate(nums):  # 'i' is the index, 'num' is the value at that i
     num_to_index[num] = i  # Add the current number and its index to the dictionary
 output
 0 1
+>CODE
+a = input("enetr your name :")
+print("my name is :",a)
+x = input("enter first number :")
+y = input("enter second number :")
+print(x + y)
+print(int(x) + int(y))
+>OUTPUT
 
 
 
