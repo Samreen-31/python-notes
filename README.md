@@ -165,6 +165,23 @@ y = input("enter second number :")
 print(x + y)
 print(int(x) + int(y))
 >OUTPUT
+>CODE
+>FACTORS OF 2
+>limit = 100
+for i in range(1, limit + 1):#range function in python generate sequence of numbers starting from frst argument to second argument
+    if i % 2 == 0:
+     print(i)
+>EVEN NUMBERS
+>a = int(input("enter a value x :"))
+if a % 2 == 0:
+    print("even")
+else:
+    print("not even")
+>AREA OF THE CIRCLE
+>r = 5
+pi = 3.14
+a = pi*r*r
+print("area of the circle is :",a)
 
 
 
