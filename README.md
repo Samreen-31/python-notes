@@ -182,6 +182,16 @@ else:
 pi = 3.14
 a = pi*r*r
 print("area of the circle is :",a)
+>CODE
+>a = (input("enter a number :"))
+if '.' in a:
+    print("decimal")
+else:
+    a = int(a)
+    if a % 2 == 0:
+        print("even")
+    else:
+        print("odd")
 
 
 
