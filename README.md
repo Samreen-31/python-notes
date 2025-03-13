@@ -203,7 +203,10 @@ a, b = 0, 1# febonocci frst two terms
 for _ in range(n):#febonacci loop
     print(a, end="")#print current term
     a, b = b, a + b# to print next terms
-
+>code for 2 table
+>num = 2
+for i in range(1, 11):
+    print(f"{2} X {i} = {2 * i}")
 
 
 
