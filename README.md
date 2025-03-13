@@ -192,6 +192,12 @@ else:
         print("even")
     else:
         print("odd")
+>code print odd numbers using list
+>L = [2, 3, 1, 8]
+for num in L:
+    if num % 2 != 0:
+        print(num)
+
 
 
 
