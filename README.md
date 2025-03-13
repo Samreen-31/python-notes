@@ -197,6 +197,12 @@ else:
 for num in L:
     if num % 2 != 0:
         print(num)
+>code for febonacci
+>n = 10# total numbers
+a, b = 0, 1# febonocci frst two terms
+for _ in range(n):#febonacci loop
+    print(a, end="")#print current term
+    a, b = b, a + b# to print next terms
 
 
 
